@@ -10,9 +10,9 @@
     </div>
   </div>
 </div>
-  <%= render partial: 'message', collection: @messages %>
+
 <div class="messages">
-  
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f|%>
